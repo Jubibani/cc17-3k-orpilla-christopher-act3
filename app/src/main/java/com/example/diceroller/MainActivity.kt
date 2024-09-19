@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         button = findViewById(R.id.button)
         imageView = findViewById(R.id.imageView) // Updated to reference ImageView
 
-        // Set the default dice face
+        //the default dice face
         imageView.setImageResource(R.drawable.dice_1)
 
         button.setOnClickListener {
@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
             4 -> R.drawable.dice_4
             5 -> R.drawable.dice_5
             6 -> R.drawable.dice_6
-            else -> R.drawable.dice_1 // Default face
+            else -> R.drawable.dice_1 // my Default face of dice
         }
     }
 }

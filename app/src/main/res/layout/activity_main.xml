@@ -11,7 +11,7 @@
         android:layout_width="184dp"
         android:layout_height="76dp"
         android:layout_marginBottom="148dp"
-        android:text="Roll"
+        android:text="@string/roll"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,6 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice_1" />
+        app:srcCompat="@drawable/dice_1"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
