@@ -23,8 +23,9 @@ class MainActivity : ComponentActivity() {
         button = findViewById(R.id.button)
         imageView = findViewById(R.id.imageView) // Updated to reference ImageView
 
+        // Set the default dice face
+        imageView.setImageResource(R.drawable.dice_1)
 
-        
         button.setOnClickListener {
             if (!isRunning) {
                 startSlotMachine()
